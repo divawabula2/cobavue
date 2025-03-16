@@ -5,7 +5,7 @@ const users = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch("http://localhost:3000/users");
+    const response = await fetch("http://api.animeost.web.id/users");
     users.value = await response.json();
   } catch (error) {
     console.error("Error fetching users:", error);
