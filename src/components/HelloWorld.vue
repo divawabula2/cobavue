@@ -15,7 +15,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <h1>List of Users</h1>
+    <h1>List of Usersa</h1>
     <ul>
       <li v-for="user in users" :key="user.id">
         {{ user.name }} - {{ user.email }}
